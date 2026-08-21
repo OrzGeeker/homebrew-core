@@ -6,20 +6,20 @@ class RustThanos < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/OrzMC/rust-thanos/releases/download/0.0.3/rust-thanos-0.0.3-aarch64-apple-darwin.tar.gz"
-      sha256 "2a8e1345de429c4b762cf52c26fbfc12d2bebed0d4894ebeada94190298105a5"
+      sha256 "72a767f08bf36e588e26efa2c9436b9ef91d4b8d4d4eeeae1df0ba3bbb52d2ce"
     else
       url "https://github.com/OrzMC/rust-thanos/releases/download/0.0.3/rust-thanos-0.0.3-x86_64-apple-darwin.tar.gz"
-      sha256 "087f575bb1881ec5229df981fa26b989981e09365aae850ea225118a0b111738"
+      sha256 "5c4f7d72d54715d770f1e2845ad5e623ec3b630fd682bd06241d8cf547777307"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/OrzMC/rust-thanos/releases/download/0.0.3/rust-thanos-0.0.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "46b687432b2a4997d9d1689fe288083ea98b7dcdbda7042deac155383a42705b"
+      sha256 "40118393121d53fb05daaa012ad39d5570c3735384a9c5892b6d0edb852fecb3"
     else
       url "https://github.com/OrzMC/rust-thanos/releases/download/0.0.3/rust-thanos-0.0.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e0ea674744c7e8973fde8c773edabb2e8260ef42b312ce053eacb2a11663d0b9"
+      sha256 "53e84e298d40412309e875dfc5f5c5675cfbb445ba3fcc6e9016db2aeebcd203"
     end
   end
 
